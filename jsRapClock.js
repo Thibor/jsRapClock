@@ -23,7 +23,7 @@ $(this).addClass('rapClock').height(w);
 if(this.opt.caption)
 	$('<div>').addClass('rapClockCaption').text(this.opt.caption).appendTo(this);
 for(var n = 0;n < 12;n++)
-	$('<div>').addClass('rapHours').css('transform','translate(-50%,-50%) rotate(' + (n * 30) + 'deg) translate(0,450%)').appendTo(this);
+	$('<div>').addClass('rapHours').css('transform','translate(-50%,-50%) rotate(' + (n * 30) + 'deg) translate(0,500%)').appendTo(this);
 $('<div>').addClass('rapHands rapClockH').appendTo(this);
 $('<div>').addClass('rapHands rapClockM').appendTo(this);
 $('<div>').addClass('rapHands rapClockS').appendTo(this);
