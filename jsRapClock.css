@@ -1,17 +1,16 @@
 .rapClock{
-background:radial-gradient(#fff,#ccc,#999);	
+background:radial-gradient(#fff 10%,#ccc 61%,#444 62%,#800 63%,#400 100%);	
 font-family:'Comic Sans MS',cursive,sans-serif;
 position:relative;
-margin:0px auto;
 border-radius:50%;
-box-shadow:inset -2px -2px 4px rgba(0,0,0,0.6),inset 2px 2px 4px rgba(255,255,255,0.6),2px 2px 4px #000;
+box-shadow:inset -2px -2px 4px rgba(0,0,0,8),inset 2px 2px 4px rgba(255,255,255,8),2px 2px 4px rgba(0,0,0,8),0px 0px 4px black;
 text-align:center;
 text-shadow:0 0 2px #fff;
 }
 .rapClockCaption{
 padding-top:25%;
 }
-.rapHours{
+.rapClockHours{
 top:50%;
 left:50%;
 width:2%;
@@ -19,8 +18,7 @@ height:8%;
 position:absolute;
 background-color:#000;
 }	
-
-.rapHands{
+.rapClockHands{
 top:50%;
 left:50%;	
 position:absolute;
@@ -41,7 +39,7 @@ background-color:#222;
 
 .rapClockH{
 width:5%;
-height:20%;
+height:25%;
 z-index:1;
 background-color:#222;
 }
