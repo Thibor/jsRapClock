@@ -17,6 +17,11 @@ width:2%;
 height:8%;
 position:absolute;
 background-color:#000;
+}
+.rapClockNumbers{
+top:50%;
+left:50%;
+position:absolute;	
 }	
 .rapClockHands{
 top:50%;
@@ -28,7 +33,7 @@ border-radius:50% 50% 50% 50% / 90% 90% 10% 10%;
 width:2%;
 height:46%;
 z-index:3;
-background-color:#900;
+background-color:#a00;
 }
 .rapClockM{
 width:3%;
