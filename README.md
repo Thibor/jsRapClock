@@ -13,8 +13,8 @@ Option | Type | Default | Description
 ------ | ---- | ------- | -----------
 caption | string | '' | Inscription on the clock face
 clockNumbers | boolean | true | Digits on the clock face
-clock | int | 0 | Voice reading time
-stopwatch | int | 0 | Voice reading of the stopwatch
+clock | int | 0 | The interval between the times to be read in minutes
+stopwatch | int | 0 | The interval between the time the stopwatch is read in seconds
 pitch | float | 1.0 | Pitch of voice
 rate | float| 0.8 | Speed of voice
 shiftH | int| 0 | Shift hours
