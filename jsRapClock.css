@@ -1,11 +1,14 @@
 .rapClock{
-background:radial-gradient(#fff 10%,#ccc 60%,#000 61%,#a00 70%,black 100%);	
-font-family:'Comic Sans MS',cursive,sans-serif;
-position:relative;
-border-radius:50%;
-box-shadow:inset -2px -2px 4px rgba(0,0,0,8),inset 2px 2px 4px rgba(255,255,255,8),2px 2px 4px rgba(0,0,0,8),0px 0px 4px black;
-text-align:center;
-text-shadow:0 0 2px #fff;
+	background:radial-gradient(#fff 10%,#ccc 62%,#000 65%,#a00 70%,black 100%);
+	cursor:pointer;
+	font-family:'Comic Sans MS',cursive,sans-serif;
+	position:relative;
+	border-radius:50%;
+	box-shadow:inset -2px -2px 4px rgba(0,0,0,8),inset 2px 2px 4px rgba(255,255,255,8),2px 2px 4px rgba(0,0,0,8),0px 0px 4px black;
+	text-align:center;
+	text-shadow:0 0 2px #fff;
+	-webkit-user-select:none;
+	-moz-user-select:none;
 }
 .rapClockCaption{
 padding-top:25%;
