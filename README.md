@@ -1,5 +1,5 @@
 # jsRapClock
-JQuery Clock Plugin
+JQuery Speaking Clock Plugin
 
 Try it out <a href="https://thibor.github.io/jsRapClock/">here</a>.
 
