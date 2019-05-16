@@ -7,7 +7,7 @@ More information about this can be found in this blog <a href="https://www.jquer
 
 [https://thibor.github.io/jsRapClock/](https://thibor.github.io/jsRapClock/) 
 
-### Settings
+### Properties
 
 Option | Type | Default | Description
 ------ | ---- | ------- | -----------
