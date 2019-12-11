@@ -42,10 +42,20 @@ $(this).bind({
 					t = Math.floor(t / 60);
 					let m = t % 60;
 					h = Math.floor(t / 60);
-					if(s <= 9) s = '0' + s;
-					if(m <= 9) m = '0' + m;
-					if(h <= 9) h = '0' + h;
-					base.Speak(h + ':' + m + ':' + s);
+					if(!h){
+						if(!m)
+							base.Speak(s + ' seconds');
+						else
+							if(s)
+								base.Speak(m + ' minutes ' + s + ' seconds');
+							else
+								base.Speak(m + ' minutes');
+					}else{
+						if(s <= 9) s = '0' + s;
+						if(m <= 9) m = '0' + m;
+						if(h <= 9) h = '0' + h;
+						base.Speak(h + ':' + m + ':' + s);
+					}
 				},base.opt.stopwatch * 1000);
 			}
 		}else if(base.opt.clock){
@@ -100,6 +110,7 @@ this.Speak =function(s){
 let utterThis = new SpeechSynthesisUtterance(s);
 utterThis.pitch = this.opt.pitch;
 utterThis.rate = this.opt.rate;
+utterThis.lang = 'en-US';
 this.synth.speak(utterThis);
 }
 
