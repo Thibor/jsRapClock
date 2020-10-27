@@ -103,20 +103,14 @@ $(window).resize(function () {
 			}
 
 			this.SpeakTimer = function (h, m, s) {
-				if (!h) {
-					if (!m)
-						this.Speak(s + ' seconds');
-					else
-						if (s)
-							this.Speak(m + ' minutes ' + s + ' seconds');
-						else
-							this.Speak(m + ' minutes');
-				} else {
-					if (s <= 9) s = '0' + s;
-					if (m <= 9) m = '0' + m;
-					if (h <= 9) h = '0' + h;
-					this.Speak(h + ':' + m + ':' + s);
-				}
+				let t = '';
+				if (!h)
+					t = h + 'hours ';
+				if (!m)
+					t += m + 'minutes';
+				if (!s)
+					t += s + 'seconds';
+				this.Speak(t);
 			}
 
 			this.Render();
