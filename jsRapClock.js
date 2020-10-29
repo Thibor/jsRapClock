@@ -107,7 +107,7 @@ $(window).resize(function () {
 				if (h)
 					t = h + 'hours ';
 				if (m)
-					t += m + 'minutes';
+					t += m + ' minutes ';
 				if (s)
 					t += s + 'seconds';
 				this.Speak(t);
