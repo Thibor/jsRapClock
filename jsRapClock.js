@@ -104,11 +104,11 @@ $(window).resize(function () {
 
 			this.SpeakTimer = function (h, m, s) {
 				let t = '';
-				if (!h)
+				if (h)
 					t = h + 'hours ';
-				if (!m)
+				if (m)
 					t += m + 'minutes';
-				if (!s)
+				if (s)
 					t += s + 'seconds';
 				this.Speak(t);
 			}
