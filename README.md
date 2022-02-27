@@ -1,7 +1,7 @@
 # jsRapClock
 JQuery Speaking Clock Plugin
 
-More information about this can be found in this blog <a href="https://www.jqueryscript.net/time-clock/Analog-Clock-jsRapClock.html">article</a>.
+More information about this can be found in this <a href="https://www.jqueryscript.net/time-clock/Analog-Clock-jsRapClock.html">article</a>.
 
 #### Demo
 
